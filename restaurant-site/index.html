@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="El Patio Restaurant Latin Fusion — Authentic Colombian and Latin American cuisine in Boca Raton, FL. Bandeja Paisa, empanadas, full bar, karaoke, and more. Order online or dine in at 1949 NW 2nd Ave." />
+  <title>El Patio Restaurant Latin Fusion | Colombian Cuisine Boca Raton</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="El Patio Restaurant Latin Fusion | Boca Raton, FL" />
+  <meta property="og:description" content="Authentic Colombian and Latin American cuisine in Boca Raton. 4.6 stars · 583+ reviews. Full bar, karaoke, live music, and a Colombian Mercadito." />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:url" content="https://elpatioboca.com" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Local Business Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "El Patio Restaurant Latin Fusion",
+    "alternateName": "El Patio Boca",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1949 NW 2nd Ave",
+      "addressLocality": "Boca Raton",
+      "addressRegion": "FL",
+      "postalCode": "33432",
+      "addressCountry": "US"
+    },
+    "telephone": "+15614653348",
+    "servesCuisine": ["Colombian", "Latin American", "Venezuelan", "Mexican"],
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "reviewCount": "583"
+    },
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],"opens":"08:00","closes":"20:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"08:00","closes":"22:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Sunday"],"opens":"09:00","closes":"18:00"}
+    ],
+    "hasMap": "https://maps.google.com/?q=1949+NW+2nd+Ave,+Boca+Raton,+FL+33432"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===========================
+       1. STICKY NAVIGATION
+  ============================ -->
+  <header class="nav-header" id="nav-header">
+    <nav class="nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="nav-brand-main">El Patio</span>
+        <span class="nav-brand-sub">Latin Fusion</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#location" class="nav-link">Location</a></li>
+      </ul>
+
+      <a href="https://order.online/store/el-patio-boca-%C2%A0restaurant-boca-raton-23800568" target="_blank" rel="noopener" class="btn btn-order-nav">
+        Order Online
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===========================
+         2. HERO SECTION
+    ============================ -->
+    <section class="hero" id="home">
+      <!-- REPLACE: hero-image.jpg (1920x1080) — vibrant restaurant interior, colorful food spread, or festive Latin dining scene -->
+      <div class="hero-overlay"></div>
+      <div class="hero-dots"></div>
+      <div class="hero-circle hero-circle--1"></div>
+      <div class="hero-circle hero-circle--2"></div>
+      <div class="hero-circle hero-circle--3"></div>
+
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-up" style="animation-delay: 0.1s">
+          <span class="hero-badge-stars">4.6 ★★★★★</span>
+          <span class="hero-badge-count">583+ Google Reviews</span>
+        </div>
+        <h1 class="hero-title animate-fade-up" style="animation-delay: 0.25s">El Patio</h1>
+        <p class="hero-tagline animate-fade-up" style="animation-delay: 0.4s">Sabor que llega al alma</p>
+        <p class="hero-desc animate-fade-up" style="animation-delay: 0.55s">
+          Authentic Colombian and Latin American cuisine in the heart of Boca Raton.<br />
+          Where every meal feels like home and every night comes alive.
+        </p>
+        <div class="hero-ctas animate-fade-up" style="animation-delay: 0.7s">
+          <a href="#menu" class="btn btn-gold">View Our Menu</a>
+          <a href="https://www.doordash.com/store/el-patio-boca-%C2%A0restaurant-boca-raton-23800568/" target="_blank" rel="noopener" class="btn btn-outline">Order Now →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         3. FEATURES BAR
+    ============================ -->
+    <div class="features-bar">
+      <div class="features-card">
+        <div class="feature-item">
+          <span class="feature-icon">🎤</span>
+          <strong class="feature-label">Karaoke & DJ</strong>
+          <small class="feature-sub">Fri & Sat nights</small>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon">🍹</span>
+          <strong class="feature-label">Full Bar</strong>
+          <small class="feature-sub">Latin cocktails & more</small>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon">🍽️</span>
+          <strong class="feature-label">Catering</strong>
+          <small class="feature-sub">Events & parties</small>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon">🛒</span>
+          <strong class="feature-label">Mercadito</strong>
+          <small class="feature-sub">Colombian mini market</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===========================
+         4. ABOUT SECTION
+    ============================ -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Left: Image stagger -->
+          <div class="about-images fade-left">
+            <div class="about-img about-img--main">
+              <!-- REPLACE: about-1.jpg (600x800) — plated Bandeja Paisa or empanadas closeup -->
+              <div class="img-placeholder img-placeholder--warm">
+                <span class="img-placeholder-label">Bandeja Paisa</span>
+              </div>
+            </div>
+            <div class="about-img about-img--offset">
+              <!-- REPLACE: about-2.jpg (600x800) — restaurant interior or warm family dining scene -->
+              <div class="img-placeholder img-placeholder--cool">
+                <span class="img-placeholder-label">El Patio</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Text -->
+          <div class="about-text fade-right">
+            <span class="section-label">Our Story</span>
+            <h2 class="section-title">A Taste of Colombia<br />in Boca Raton</h2>
+            <p class="about-body">
+              Born in 2021 from a passion for Colombian culture and a love of bringing people together, El Patio is more than a restaurant — it's a gathering place. Founded by a proud Colombian family, every dish on our menu carries the flavors of home: the slow-simmered soups of Bogotá, the crispy chicharrón of Medellín, the warmth of a pan de bono fresh from the oven.
+            </p>
+            <p class="about-body">
+              By day, El Patio is a relaxed family dining destination where you can start your morning with a <em>Calentado</em> and linger over <em>Ajiaco</em> at lunch. By night on weekends, the energy transforms — the full bar comes alive, DJ and karaoke fill the room, and our VIP lounge hosts private celebrations. Whether you're craving a $1.77 empanada or a full <em>Bandeja Paisa</em>, you'll always leave with a full stomach and a bigger smile.
+            </p>
+            <div class="about-badges">
+              <div class="about-badge">🇨🇴 Colombian Owned</div>
+              <div class="about-badge">🅿️ Free Parking</div>
+              <div class="about-badge">🛋️ VIP Room</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         5. MENU SECTION
+    ============================ -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-label">What We Serve</span>
+          <h2 class="section-title">Our Menu</h2>
+          <p class="section-subtitle">Generous portions. Authentic flavors. Made with love — every single time.</p>
+        </div>
+
+        <!-- Category Tabs -->
+        <div class="menu-tabs fade-up" role="tablist" aria-label="Menu categories">
+          <button class="menu-tab active" data-category="all" role="tab" aria-selected="true">All</button>
+          <button class="menu-tab" data-category="breakfast" role="tab" aria-selected="false">Breakfast</button>
+          <button class="menu-tab" data-category="appetizers" role="tab" aria-selected="false">Appetizers</button>
+          <button class="menu-tab" data-category="soups" role="tab" aria-selected="false">Soups</button>
+          <button class="menu-tab" data-category="entrees" role="tab" aria-selected="false">Entrées</button>
+          <button class="menu-tab" data-category="arepas" role="tab" aria-selected="false">Arepas</button>
+          <button class="menu-tab" data-category="bakery" role="tab" aria-selected="false">Bakery</button>
+          <button class="menu-tab" data-category="drinks" role="tab" aria-selected="false">Drinks</button>
+          <button class="menu-tab" data-category="desserts" role="tab" aria-selected="false">Desserts</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menu-grid">
+
+          <!-- BREAKFAST -->
+          <article class="menu-card" data-category="breakfast">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Calentado</h3>
+                <span class="menu-item-price">$15</span>
+              </div>
+              <p class="menu-item-desc">Colombian breakfast plate — beans, rice, chicharrón, grilled steak, eggs &amp; arepa</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="breakfast">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Breakfast Burrito</h3>
+                <span class="menu-item-price">$12</span>
+              </div>
+              <p class="menu-item-desc">Loaded flour tortilla with eggs, cheese &amp; choice of filling</p>
+            </div>
+          </article>
+
+          <!-- APPETIZERS -->
+          <article class="menu-card" data-category="appetizers">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Empanada Colombiana</h3>
+                <span class="menu-item-price">$1.77</span>
+              </div>
+              <p class="menu-item-desc">Deep-fried corn patty (chicken, beef, or cheese) with hot sauce</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="appetizers">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Tequeños</h3>
+                <span class="menu-item-price">$9</span>
+              </div>
+              <p class="menu-item-desc">Venezuelan cheese sticks, crispy outside, melty inside</p>
+            </div>
+          </article>
+
+          <article class="menu-card menu-card--signature" data-category="appetizers">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">
+                  <span class="signature-star" title="Fan Favorite">★</span>
+                  Ceviche de Chicharrón
+                </h3>
+                <span class="menu-item-price">$14</span>
+              </div>
+              <p class="menu-item-desc">Fan-favorite — crispy pork belly tossed in citrus, onion &amp; herbs</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="appetizers">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Cachapa con Queso</h3>
+                <span class="menu-item-price">$12</span>
+              </div>
+              <p class="menu-item-desc">Sweet Venezuelan corn pancake stuffed with queso de mano</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="appetizers">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Patacones</h3>
+                <span class="menu-item-price">$8</span>
+              </div>
+              <p class="menu-item-desc">Crispy fried green plantains</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="appetizers">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Morcilla con Arepa</h3>
+                <span class="menu-item-price">$10</span>
+              </div>
+              <p class="menu-item-desc">Colombian blood sausage with warm arepa</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="appetizers">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Chicharrón con Arepa</h3>
+                <span class="menu-item-price">$11</span>
+              </div>
+              <p class="menu-item-desc">Crispy fried pork belly with a small arepa</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="appetizers">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Patacones / Arepas con Hogao</h3>
+                <span class="menu-item-price">$9</span>
+              </div>
+              <p class="menu-item-desc">Served with Colombian tomato-onion sauce</p>
+            </div>
+          </article>
+
+          <!-- SOUPS -->
+          <article class="menu-card" data-category="soups">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Caldo de Costilla</h3>
+                <span class="menu-item-price">$18.71</span>
+              </div>
+              <p class="menu-item-desc">Hearty beef rib soup — Colombian comfort classic</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="soups">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Ajiaco</h3>
+                <span class="menu-item-price">$18</span>
+              </div>
+              <p class="menu-item-desc">Traditional Bogotá chicken soup with 3 types of potato, corn &amp; guasca</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="soups">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Sancocho de Gallina</h3>
+                <span class="menu-item-price">$18</span>
+              </div>
+              <p class="menu-item-desc">Rich slow-simmered hen stew with root vegetables</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="soups">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Mondongo</h3>
+                <span class="menu-item-price">$18</span>
+              </div>
+              <p class="menu-item-desc">Traditional tripe soup, slow-cooked with vegetables</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="soups">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Sopa del Día</h3>
+                <span class="menu-item-price">$6–$9</span>
+              </div>
+              <p class="menu-item-desc">Daily rotating soup special (Mon–Thu)</p>
+            </div>
+          </article>
+
+          <!-- ENTRÉES -->
+          <article class="menu-card menu-card--signature" data-category="entrees">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">
+                  <span class="signature-star" title="Signature Dish">★</span>
+                  Bandeja Paisa
+                </h3>
+                <span class="menu-item-price">$25</span>
+              </div>
+              <p class="menu-item-desc">Colombia's national dish — grilled steak, chicharrón, rice, beans, avocado, egg &amp; arepa</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="entrees">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Plato Montañero</h3>
+                <span class="menu-item-price">$23</span>
+              </div>
+              <p class="menu-item-desc">Hearty mountain-style platter with all the Colombian favorites</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="entrees">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Pabellón Criollo</h3>
+                <span class="menu-item-price">$22</span>
+              </div>
+              <p class="menu-item-desc">Venezuelan shredded beef with rice, black beans &amp; sweet plantains</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="entrees">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Cazuela de Mariscos</h3>
+                <span class="menu-item-price">$24</span>
+              </div>
+              <p class="menu-item-desc">Latin seafood stew loaded with shrimp, fish &amp; shellfish</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="entrees">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Carne Asada</h3>
+                <span class="menu-item-price">$22</span>
+              </div>
+              <p class="menu-item-desc">Generous grilled steak with rice, fries &amp; fresh salad</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="entrees">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Especial del Día</h3>
+                <span class="menu-item-price">$16</span>
+              </div>
+              <p class="menu-item-desc">Daily special — soup + entrée combo</p>
+            </div>
+          </article>
+
+          <!-- AREPAS -->
+          <article class="menu-card" data-category="arepas">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Arepa Reina Pepiada</h3>
+                <span class="menu-item-price">$12</span>
+              </div>
+              <p class="menu-item-desc">Venezuelan arepa with shredded chicken &amp; creamy avocado</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="arepas">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Arepa Jamón y Queso</h3>
+                <span class="menu-item-price">$10</span>
+              </div>
+              <p class="menu-item-desc">Warm arepa stuffed with ham and melted cheese</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="arepas">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Arepas Rellenas Venezolanas</h3>
+                <span class="menu-item-price">$11</span>
+              </div>
+              <p class="menu-item-desc">Venezuelan-style stuffed arepas — various fillings</p>
+            </div>
+          </article>
+
+          <!-- BAKERY -->
+          <article class="menu-card" data-category="bakery">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Pan de Bono</h3>
+                <span class="menu-item-price">$2.50</span>
+              </div>
+              <p class="menu-item-desc">Valle-region cheese bread — warm, chewy &amp; addictive</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="bakery">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Pan de Yuca</h3>
+                <span class="menu-item-price">$2.50</span>
+              </div>
+              <p class="menu-item-desc">Bogotá-style yuca bread — soft, cheesy, freshly baked</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="bakery">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Colombian Pastries</h3>
+                <span class="menu-item-price">$3+</span>
+              </div>
+              <p class="menu-item-desc">Rotating selection of traditional baked goods</p>
+            </div>
+          </article>
+
+          <!-- DRINKS -->
+          <article class="menu-card menu-card--signature" data-category="drinks">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">
+                  <span class="signature-star" title="Signature Drink">★</span>
+                  Limonada de Coco
+                </h3>
+                <span class="menu-item-price">$6</span>
+              </div>
+              <p class="menu-item-desc">SIGNATURE — coconut lemonade, mentioned in almost every review</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="drinks">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Jugo de Maracuyá</h3>
+                <span class="menu-item-price">$6</span>
+              </div>
+              <p class="menu-item-desc">Fresh passion fruit juice — sweet, tart &amp; refreshing</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="drinks">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Colombian Coffee</h3>
+                <span class="menu-item-price">$4</span>
+              </div>
+              <p class="menu-item-desc">Rich, smooth Colombian coffee</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="drinks">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Full Bar</h3>
+                <span class="menu-item-price">Varies</span>
+              </div>
+              <p class="menu-item-desc">Cocktails, beer, wine &amp; Latin-inspired mixed drinks</p>
+            </div>
+          </article>
+
+          <!-- DESSERTS -->
+          <article class="menu-card" data-category="desserts">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Cuatro Leches</h3>
+                <span class="menu-item-price">$9</span>
+              </div>
+              <p class="menu-item-desc">Four-milk cake — one better than tres leches</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="desserts">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Arroz con Leche</h3>
+                <span class="menu-item-price">$7</span>
+              </div>
+              <p class="menu-item-desc">Creamy Colombian rice pudding with cinnamon</p>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="desserts">
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Coconut Flan</h3>
+                <span class="menu-item-price">$8</span>
+              </div>
+              <p class="menu-item-desc">Silky smooth flan with tropical coconut twist</p>
+            </div>
+          </article>
+
+        </div><!-- /menu-grid -->
+
+        <p class="menu-note fade-up">
+          ★ = Signature Dish · Prices are approximate. Daily specials rotate — ask your server!
+        </p>
+      </div>
+    </section>
+
+    <!-- ===========================
+         6. REVIEWS SECTION
+    ============================ -->
+    <section class="reviews-section" id="reviews">
+      <div class="reviews-accent reviews-accent--red"></div>
+      <div class="reviews-accent reviews-accent--gold"></div>
+      <div class="container">
+
+        <div class="reviews-rating-badge fade-up">
+          <span class="reviews-big-number">4.6</span>
+          <div class="reviews-stars-wrap">
+            <span class="reviews-stars">★★★★★</span>
+            <span class="reviews-count">583+ Google Reviews</span>
+          </div>
+        </div>
+
+        <div class="section-header fade-up">
+          <h2 class="section-title section-title--light">What Our Guests Say</h2>
+        </div>
+
+        <div class="reviews-grid">
+
+          <article class="review-card fade-up" style="--delay: 0s">
+            <div class="review-stars">★★★★★</div>
+            <blockquote class="review-quote">"We found a Jewel in Boca. Amazing service and food."</blockquote>
+            <p class="review-author">— Google Reviewer</p>
+          </article>
+
+          <article class="review-card fade-up" style="--delay: 0.1s">
+            <div class="review-stars">★★★★★</div>
+            <blockquote class="review-quote">"The Best Colombian restaurant ever. Breakfast and lunch the same day, we have to come back."</blockquote>
+            <p class="review-author">— Google Reviewer</p>
+          </article>
+
+          <article class="review-card fade-up" style="--delay: 0.2s">
+            <div class="review-stars">★★★★★</div>
+            <blockquote class="review-quote">"Amazing food, excellent service and the atmosphere is on point... right off of I-95 so very convenient. Would definitely come back over and over again."</blockquote>
+            <p class="review-author">— Google Reviewer</p>
+          </article>
+
+          <article class="review-card fade-up" style="--delay: 0.3s">
+            <div class="review-stars">★★★★★</div>
+            <blockquote class="review-quote">"The food is consistently incredible, bursting with flavor and authenticity. The vibrant Latin atmosphere creates such a festive, welcoming vibe, and the service is truly exceptional every time."</blockquote>
+            <p class="review-author">— Repeat Customer (2+ years), Google Reviews</p>
+          </article>
+
+          <article class="review-card fade-up" style="--delay: 0.4s">
+            <div class="review-stars">★★★★★</div>
+            <blockquote class="review-quote">"The food is fresh, tasty &amp; served in large portions... 'El Patio' rivals my family member's ability in the kitchen. That says a lot."</blockquote>
+            <p class="review-author">— Google Reviewer</p>
+          </article>
+
+          <article class="review-card fade-up" style="--delay: 0.5s">
+            <div class="review-stars">★★★★★</div>
+            <blockquote class="review-quote">"This place is insanely good... the empanadas were hot, crispy and flavorful!!"</blockquote>
+            <p class="review-author">— DoorDash Customer</p>
+          </article>
+
+        </div><!-- /reviews-grid -->
+
+        <div class="reviews-links fade-up">
+          <a href="https://www.google.com/maps/search/El+Patio+Restaurant+Latin+Fusion+Boca+Raton" target="_blank" rel="noopener" class="reviews-link">Read More on Google →</a>
+          <a href="https://www.yelp.com/biz/el-patio-boca-boca-raton" target="_blank" rel="noopener" class="reviews-link">View on Yelp →</a>
+          <a href="https://www.tripadvisor.com/Restaurant_Review-g34088-d26955345-Reviews-El_Patio_Boca-Boca_Raton_Florida.html" target="_blank" rel="noopener" class="reviews-link">TripAdvisor →</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===========================
+         7. LOCATION & HOURS
+    ============================ -->
+    <section class="location-section" id="location">
+      <div class="container">
+        <div class="location-grid">
+
+          <!-- Map -->
+          <div class="location-map fade-left">
+            <iframe
+              title="El Patio Restaurant Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.842!2d-80.0776!3d26.3683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s1949+NW+2nd+Ave%2C+Boca+Raton%2C+FL+33432!5e0!3m2!1sen!2sus!4v1"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <!-- Info -->
+          <div class="location-info fade-right">
+            <span class="section-label">Visit Us</span>
+            <h2 class="section-title">Location &amp; Hours</h2>
+
+            <a href="https://maps.google.com/?q=1949+NW+2nd+Ave,+Boca+Raton,+FL+33432" target="_blank" rel="noopener" class="location-card location-card--link">
+              <span class="location-card-icon">📍</span>
+              <div class="location-card-text">
+                <strong>1949 NW 2nd Ave</strong>
+                <span>Boca Raton, FL 33432</span>
+                <small>1949 Plaza · Right off I-95</small>
+              </div>
+            </a>
+
+            <a href="tel:+15614653348" class="location-card location-card--link">
+              <span class="location-card-icon">📞</span>
+              <div class="location-card-text">
+                <strong>(561) 465-3348</strong>
+                <span>Call us for reservations or catering</span>
+              </div>
+            </a>
+
+            <div class="hours-table">
+              <table>
+                <tbody>
+                  <tr data-day="1"><td>Monday</td><td>8:00 AM – 8:00 PM</td></tr>
+                  <tr data-day="2"><td>Tuesday</td><td>8:00 AM – 8:00 PM</td></tr>
+                  <tr data-day="3"><td>Wednesday</td><td>8:00 AM – 8:00 PM</td></tr>
+                  <tr data-day="4"><td>Thursday</td><td>8:00 AM – 8:00 PM</td></tr>
+                  <tr data-day="5"><td>Friday</td><td>8:00 AM – 10:00 PM</td></tr>
+                  <tr data-day="6"><td>Saturday</td><td>8:00 AM – 10:00 PM</td></tr>
+                  <tr data-day="0"><td>Sunday</td><td>9:00 AM – 6:00 PM</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="delivery-row">
+              <a href="https://www.doordash.com/store/el-patio-boca-%C2%A0restaurant-boca-raton-23800568/" target="_blank" rel="noopener" class="delivery-badge">DoorDash</a>
+              <a href="https://www.ubereats.com/store/el-patio-latin-fusion-restaurant/REU5q3EmQRqqc6uo4hLmAw" target="_blank" rel="noopener" class="delivery-badge">Uber Eats</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         8. CTA SECTION
+    ============================ -->
+    <section class="cta-section">
+      <div class="cta-accent cta-accent--1"></div>
+      <div class="cta-accent cta-accent--2"></div>
+      <div class="container">
+        <div class="cta-content fade-up">
+          <h2 class="cta-heading">Come Taste the Difference</h2>
+          <p class="cta-tagline">Your table is waiting</p>
+          <div class="cta-buttons">
+            <a href="tel:+15614653348" class="btn btn-white">Call (561) 465-3348</a>
+            <a href="https://order.online/store/el-patio-boca-%C2%A0restaurant-boca-raton-23800568" target="_blank" rel="noopener" class="btn btn-outline-white">Order Online →</a>
+          </div>
+          <div class="cta-social">
+            <a href="https://www.instagram.com/elpatioboca/" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              <span>@elpatioboca</span>
+            </a>
+            <a href="https://www.facebook.com/elpatiobocarestaurant/" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              <span>Facebook</span>
+            </a>
+            <a href="https://www.yelp.com/biz/el-patio-boca-boca-raton" target="_blank" rel="noopener" class="social-btn" aria-label="Yelp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12 24c6.624 0 11.99-5.367 11.99-11.987C23.99 5.367 18.629.001 12.017.001z"/></svg>
+              <span>Yelp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===========================
+       9. FOOTER
+  ============================ -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container footer-top-inner">
+        <a href="#home" class="nav-brand nav-brand--footer">
+          <span class="nav-brand-main">El Patio</span>
+          <span class="nav-brand-sub">Latin Fusion</span>
+        </a>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#about" class="footer-link">About</a>
+          <a href="#menu" class="footer-link">Menu</a>
+          <a href="#reviews" class="footer-link">Reviews</a>
+          <a href="#location" class="footer-link">Location</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="footer-address">1949 NW 2nd Ave, Boca Raton, FL 33432 · <a href="tel:+15614653348">(561) 465-3348</a></p>
+        <p class="footer-copy">© 2024 El Patio Restaurant Latin Fusion · Website by Axus</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
